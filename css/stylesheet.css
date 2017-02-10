@@ -1,0 +1,157 @@
+/* 
+=================================================
+                    MIXED
+=================================================
+*/
+
+:root,html {
+    font-size: 62.5%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-grid {
+    margin: 20px 0;
+}
+
+#heading {
+    margin: 0 0 20px 0;
+}
+
+.col {
+    background: #363636;
+    padding: 20px;
+}
+
+/*
+=================================================
+                MAIN
+=================================================
+*/
+
+main {
+    height: 100vh;
+    background: #484848;
+    color: white;
+}
+
+/*
+=================================================
+            FLEXCONTAINERS
+=================================================
+*/
+
+.flex-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-grid2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grid2 .col {
+    color: white;
+    width: 33%;
+}
+
+
+.flex-grid .col {
+    color: white;
+}
+
+.flex-grid-meny {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flex-grid-meny .col {
+    
+}
+
+/*
+==========================================
+            PRIO
+==========================================
+*/
+
+.prio0 {
+   color: #fff;
+}
+
+.prio1 {
+   color: #ffff00;
+}
+
+.prio2 {
+    color: #ff6600;
+}
+
+.prio3 {
+   color: #ff0000; 
+}
+
+/*
+==========================================
+            TEXTSTYLING
+==========================================
+*/
+
+.textcol {
+    color: white;
+}
+
+/*
+==========================================
+            MEDIAQUERIES
+==========================================
+*/
+
+@media (max-width: 400px) {
+    .flex-grid,
+    .flex-grid-thirds {
+    display: block;
+    }
+    .flex-grid .col,
+    .flex-grid-thirds .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
